@@ -1,0 +1,16 @@
+
+server: 
+    port: 9091 
+ 
+spring: 
+    datasource: 
+        driver-class-name: com.mysql.cj.jdbc.Driver 
+        url: jdbc:mysql://chaifanggui.cn:3306/springbootdemo
+        username: root
+        password: Loveluoluo521
+        
+    task:
+      scheduling:
+        pool:
+          size: 10 
+     
